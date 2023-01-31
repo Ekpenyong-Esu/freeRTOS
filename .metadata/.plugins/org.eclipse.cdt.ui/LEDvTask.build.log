@@ -1,0 +1,10 @@
+04:23:04 **** Incremental Build of configuration Debug for project LEDvTask ****
+make -j8 all 
+arm-none-eabi-size   LEDvTask.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29052	     28	  84620	 113700	  1bc24	LEDvTask.elf
+Finished building: default.size.stdout
+ 
+
+04:23:05 Build Finished. 0 errors, 0 warnings. (took 816ms)
+

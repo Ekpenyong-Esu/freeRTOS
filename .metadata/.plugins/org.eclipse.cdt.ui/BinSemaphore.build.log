@@ -1,0 +1,234 @@
+02:43:52 **** Incremental Build of configuration Debug for project BinSemaphore ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/myTask.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myTask.d" -MT"Core/Src/myTask.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myTask.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_timebase_tim.d" -MT"Core/Src/stm32f4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/myTask.c: In function 'vEmployeeTask':
+../Core/Src/myTask.c:98:4: warning: implicit declaration of function 'EmployeeDoWork' [-Wimplicit-function-declaration]
+   98 |    EmployeeDoWork(xWorkTicketId);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/myTask.c: At top level:
+../Core/Src/myTask.c:112:6: warning: conflicting types for 'EmployeeDoWork'
+  112 | void EmployeeDoWork(unsigned char TicketId)
+      |      ^~~~~~~~~~~~~~
+../Core/Src/myTask.c:98:4: note: previous implicit declaration of 'EmployeeDoWork' was here
+   98 |    EmployeeDoWork(xWorkTicketId);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/myTask.c: In function 'printmsg':
+../Core/Src/myTask.c:136:11: warning: implicit declaration of function 'USART_GetFlagStatus' [-Wimplicit-function-declaration]
+  136 |   while ( USART_GetFlagStatus(USART1,USART_FLAG_TXE) != SET);
+      |           ^~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:136:38: error: 'USART_FLAG_TXE' undeclared (first use in this function); did you mean 'USART_SR_TXE'?
+  136 |   while ( USART_GetFlagStatus(USART1,USART_FLAG_TXE) != SET);
+      |                                      ^~~~~~~~~~~~~~
+      |                                      USART_SR_TXE
+../Core/Src/myTask.c:136:38: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/myTask.c:137:3: warning: implicit declaration of function 'USART_SendData' [-Wimplicit-function-declaration]
+  137 |   USART_SendData(USART1,msg[i]);
+      |   ^~~~~~~~~~~~~~
+../Core/Src/myTask.c:140:37: error: 'USART_FLAG_TC' undeclared (first use in this function); did you mean 'USART_SR_TC'?
+  140 |  while ( USART_GetFlagStatus(USART1,USART_FLAG_TC) != SET);
+      |                                     ^~~~~~~~~~~~~
+      |                                     USART_SR_TC
+../Core/Src/myTask.c: In function 'prvSetupUart':
+../Core/Src/myTask.c:148:2: error: unknown type name 'USART_InitTypeDef'; did you mean 'DMA_InitTypeDef'?
+  148 |  USART_InitTypeDef uart1_init;
+      |  ^~~~~~~~~~~~~~~~~
+      |  DMA_InitTypeDef
+../Core/Src/myTask.c:151:2: warning: implicit declaration of function 'RCC_APB2PeriphClockCmd' [-Wimplicit-function-declaration]
+  151 |  RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1,ENABLE);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:151:25: error: 'RCC_APB2Periph_USART1' undeclared (first use in this function)
+  151 |  RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1,ENABLE);
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:152:2: warning: implicit declaration of function 'RCC_AHB1PeriphClockCmd' [-Wimplicit-function-declaration]
+  152 |  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:152:25: error: 'RCC_AHB1Periph_GPIOA' undeclared (first use in this function)
+  152 |  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:161:16: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Pin'
+  161 |  gpio_uart_pins.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10;
+      |                ^
+../Core/Src/myTask.c:161:28: error: 'GPIO_Pin_9' undeclared (first use in this function); did you mean 'GPIO_PIN_9'?
+  161 |  gpio_uart_pins.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10;
+      |                            ^~~~~~~~~~
+      |                            GPIO_PIN_9
+../Core/Src/myTask.c:161:41: error: 'GPIO_Pin_10' undeclared (first use in this function); did you mean 'GPIO_PIN_10'?
+  161 |  gpio_uart_pins.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10;
+      |                                         ^~~~~~~~~~~
+      |                                         GPIO_PIN_10
+../Core/Src/myTask.c:162:16: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Mode'
+  162 |  gpio_uart_pins.GPIO_Mode = GPIO_Mode_AF;
+      |                ^
+../Core/Src/myTask.c:162:29: error: 'GPIO_Mode_AF' undeclared (first use in this function)
+  162 |  gpio_uart_pins.GPIO_Mode = GPIO_Mode_AF;
+      |                             ^~~~~~~~~~~~
+../Core/Src/myTask.c:163:16: error: 'GPIO_InitTypeDef' has no member named 'GPIO_PuPd'
+  163 |  gpio_uart_pins.GPIO_PuPd = GPIO_PuPd_UP;
+      |                ^
+../Core/Src/myTask.c:163:29: error: 'GPIO_PuPd_UP' undeclared (first use in this function); did you mean 'GPIO_PULLUP'?
+  163 |  gpio_uart_pins.GPIO_PuPd = GPIO_PuPd_UP;
+      |                             ^~~~~~~~~~~~
+      |                             GPIO_PULLUP
+../Core/Src/myTask.c:164:16: error: 'GPIO_InitTypeDef' has no member named 'GPIO_OType'
+  164 |  gpio_uart_pins.GPIO_OType= GPIO_OType_PP;
+      |                ^
+../Core/Src/myTask.c:164:29: error: 'GPIO_OType_PP' undeclared (first use in this function); did you mean 'GPIO_TypeDef'?
+  164 |  gpio_uart_pins.GPIO_OType= GPIO_OType_PP;
+      |                             ^~~~~~~~~~~~~
+      |                             GPIO_TypeDef
+../Core/Src/myTask.c:165:16: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Speed'
+  165 |  gpio_uart_pins.GPIO_Speed = GPIO_High_Speed;
+      |                ^
+../Core/Src/myTask.c:165:30: error: 'GPIO_High_Speed' undeclared (first use in this function)
+  165 |  gpio_uart_pins.GPIO_Speed = GPIO_High_Speed;
+      |                              ^~~~~~~~~~~~~~~
+../Core/Src/myTask.c:166:2: warning: implicit declaration of function 'GPIO_Init' [-Wimplicit-function-declaration]
+  166 |  GPIO_Init(GPIOA, &gpio_uart_pins);
+      |  ^~~~~~~~~
+../Core/Src/myTask.c:170:2: warning: implicit declaration of function 'GPIO_PinAFConfig' [-Wimplicit-function-declaration]
+  170 |  GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_USART1); //PA2
+      |  ^~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:170:25: error: 'GPIO_PinSource9' undeclared (first use in this function); did you mean 'GPIO_PinState'?
+  170 |  GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_USART1); //PA2
+      |                         ^~~~~~~~~~~~~~~
+      |                         GPIO_PinState
+../Core/Src/myTask.c:170:41: error: 'GPIO_AF_USART1' undeclared (first use in this function); did you mean 'GPIO_AF7_USART1'?
+  170 |  GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_USART1); //PA2
+      |                                         ^~~~~~~~~~~~~~
+      |                                         GPIO_AF7_USART1
+../Core/Src/myTask.c:171:25: error: 'GPIO_PinSource10' undeclared (first use in this function); did you mean 'GPIO_PinState'?
+  171 |  GPIO_PinAFConfig(GPIOA,GPIO_PinSource10,GPIO_AF_USART1); //PA3
+      |                         ^~~~~~~~~~~~~~~~
+      |                         GPIO_PinState
+../Core/Src/myTask.c:177:12: error: request for member 'USART_BaudRate' in something not a structure or union
+  177 |  uart1_init.USART_BaudRate = 115200;
+      |            ^
+../Core/Src/myTask.c:178:12: error: request for member 'USART_HardwareFlowControl' in something not a structure or union
+  178 |  uart1_init.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+      |            ^
+../Core/Src/myTask.c:178:41: error: 'USART_HardwareFlowControl_None' undeclared (first use in this function)
+  178 |  uart1_init.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:179:12: error: request for member 'USART_Mode' in something not a structure or union
+  179 |  uart1_init.USART_Mode =  USART_Mode_Tx | USART_Mode_Rx;
+      |            ^
+../Core/Src/myTask.c:179:27: error: 'USART_Mode_Tx' undeclared (first use in this function); did you mean 'USART_SR_TC'?
+  179 |  uart1_init.USART_Mode =  USART_Mode_Tx | USART_Mode_Rx;
+      |                           ^~~~~~~~~~~~~
+      |                           USART_SR_TC
+../Core/Src/myTask.c:179:43: error: 'USART_Mode_Rx' undeclared (first use in this function)
+  179 |  uart1_init.USART_Mode =  USART_Mode_Tx | USART_Mode_Rx;
+      |                                           ^~~~~~~~~~~~~
+../Core/Src/myTask.c:180:12: error: request for member 'USART_Parity' in something not a structure or union
+  180 |  uart1_init.USART_Parity = USART_Parity_No;
+      |            ^
+../Core/Src/myTask.c:180:28: error: 'USART_Parity_No' undeclared (first use in this function)
+  180 |  uart1_init.USART_Parity = USART_Parity_No;
+      |                            ^~~~~~~~~~~~~~~
+../Core/Src/myTask.c:181:12: error: request for member 'USART_StopBits' in something not a structure or union
+  181 |  uart1_init.USART_StopBits = USART_StopBits_1;
+      |            ^
+../Core/Src/myTask.c:181:30: error: 'USART_StopBits_1' undeclared (first use in this function)
+  181 |  uart1_init.USART_StopBits = USART_StopBits_1;
+      |                              ^~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:182:12: error: request for member 'USART_WordLength' in something not a structure or union
+  182 |  uart1_init.USART_WordLength = USART_WordLength_8b;
+      |            ^
+../Core/Src/myTask.c:182:32: error: 'USART_WordLength_8b' undeclared (first use in this function)
+  182 |  uart1_init.USART_WordLength = USART_WordLength_8b;
+      |                                ^~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:183:2: warning: implicit declaration of function 'USART_Init'; did you mean 'HAL_Init'? [-Wimplicit-function-declaration]
+  183 |  USART_Init(USART2,&uart1_init);
+      |  ^~~~~~~~~~
+      |  HAL_Init
+../Core/Src/myTask.c:187:2: warning: implicit declaration of function 'USART_Cmd'; did you mean 'USART_CR1_M'? [-Wimplicit-function-declaration]
+  187 |  USART_Cmd(USART1,ENABLE);
+      |  ^~~~~~~~~
+      |  USART_CR1_M
+../Core/Src/myTask.c: In function 'prvSetupGpio':
+../Core/Src/myTask.c:197:25: error: 'RCC_AHB1Periph_GPIOA' undeclared (first use in this function)
+  197 |  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:198:25: error: 'RCC_AHB1Periph_GPIOG' undeclared (first use in this function)
+  198 |  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOG,ENABLE);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:199:25: error: 'RCC_APB2Periph_SYSCFG' undeclared (first use in this function)
+  199 |  RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG,ENABLE);
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:202:10: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Mode'
+  202 |  led_init.GPIO_Mode = GPIO_Mode_OUT;
+      |          ^
+../Core/Src/myTask.c:202:23: error: 'GPIO_Mode_OUT' undeclared (first use in this function)
+  202 |  led_init.GPIO_Mode = GPIO_Mode_OUT;
+      |                       ^~~~~~~~~~~~~
+../Core/Src/myTask.c:203:10: error: 'GPIO_InitTypeDef' has no member named 'GPIO_OType'
+  203 |  led_init.GPIO_OType = GPIO_OType_PP;
+      |          ^
+../Core/Src/myTask.c:203:24: error: 'GPIO_OType_PP' undeclared (first use in this function); did you mean 'GPIO_TypeDef'?
+  203 |  led_init.GPIO_OType = GPIO_OType_PP;
+      |                        ^~~~~~~~~~~~~
+      |                        GPIO_TypeDef
+../Core/Src/myTask.c:204:10: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Pin'
+  204 |  led_init.GPIO_Pin = GPIO_Pin_12;
+      |          ^
+../Core/Src/myTask.c:204:22: error: 'GPIO_Pin_12' undeclared (first use in this function); did you mean 'GPIO_PIN_12'?
+  204 |  led_init.GPIO_Pin = GPIO_Pin_12;
+      |                      ^~~~~~~~~~~
+      |                      GPIO_PIN_12
+../Core/Src/myTask.c:205:10: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Speed'
+  205 |  led_init.GPIO_Speed = GPIO_Low_Speed;
+      |          ^
+../Core/Src/myTask.c:205:24: error: 'GPIO_Low_Speed' undeclared (first use in this function)
+  205 |  led_init.GPIO_Speed = GPIO_Low_Speed;
+      |                        ^~~~~~~~~~~~~~
+../Core/Src/myTask.c:206:10: error: 'GPIO_InitTypeDef' has no member named 'GPIO_PuPd'
+  206 |  led_init.GPIO_PuPd = GPIO_PuPd_NOPULL;
+      |          ^
+../Core/Src/myTask.c:206:23: error: 'GPIO_PuPd_NOPULL' undeclared (first use in this function); did you mean 'GPIO_NOPULL'?
+  206 |  led_init.GPIO_PuPd = GPIO_PuPd_NOPULL;
+      |                       ^~~~~~~~~~~~~~~~
+      |                       GPIO_NOPULL
+../Core/Src/myTask.c:209:13: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Mode'
+  209 |  button_init.GPIO_Mode = GPIO_Mode_IN;
+      |             ^
+../Core/Src/myTask.c:209:26: error: 'GPIO_Mode_IN' undeclared (first use in this function)
+  209 |  button_init.GPIO_Mode = GPIO_Mode_IN;
+      |                          ^~~~~~~~~~~~
+../Core/Src/myTask.c:210:13: error: 'GPIO_InitTypeDef' has no member named 'GPIO_OType'
+  210 |  button_init.GPIO_OType = GPIO_OType_PP;
+      |             ^
+../Core/Src/myTask.c:211:13: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Pin'
+  211 |  button_init.GPIO_Pin = GPIO_Pin_13;
+      |             ^
+../Core/Src/myTask.c:211:25: error: 'GPIO_Pin_13' undeclared (first use in this function); did you mean 'GPIO_PIN_13'?
+  211 |  button_init.GPIO_Pin = GPIO_Pin_13;
+      |                         ^~~~~~~~~~~
+      |                         GPIO_PIN_13
+../Core/Src/myTask.c:212:13: error: 'GPIO_InitTypeDef' has no member named 'GPIO_Speed'
+  212 |  button_init.GPIO_Speed = GPIO_Low_Speed;
+      |             ^
+../Core/Src/myTask.c:213:13: error: 'GPIO_InitTypeDef' has no member named 'GPIO_PuPd'
+  213 |  button_init.GPIO_PuPd = GPIO_PuPd_NOPULL;
+      |             ^
+At top level:
+../Core/Src/myTask.c:123:13: warning: 'prvSetupHardware' defined but not used [-Wunused-function]
+  123 | static void prvSetupHardware(void)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/myTask.c:81:13: warning: 'vEmployeeTask' defined but not used [-Wunused-function]
+   81 | static void vEmployeeTask( void *pvParameters )
+      |             ^~~~~~~~~~~~~
+../Core/Src/myTask.c:40:6: warning: 'vManagerTask' defined but not used [-Wunused-function]
+   40 | void vManagerTask( void *pvParameters )
+      |      ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/myTask.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+02:43:55 Build Failed. 52 errors, 13 warnings. (took 2s.967ms)
+

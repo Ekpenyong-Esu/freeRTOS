@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LEDvTask,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Mutex Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MutexUsingSemaphore Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:pushBttonTask_FromISR2_flag,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:pushBttonTask_FromISR,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:pushBttonTask_FromISRflag,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED001,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LedIdleTick,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:queuesTask,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Sema,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:countingSema Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LedProjectOne Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:StaicTaskCreate
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Task/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Task/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LEDvTask/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:queuesTask/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:LedProjectOne\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Mutex\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MutexUsingSemaphore\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:countingSema\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

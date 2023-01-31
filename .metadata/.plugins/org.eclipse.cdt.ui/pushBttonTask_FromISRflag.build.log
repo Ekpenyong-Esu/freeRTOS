@@ -1,0 +1,10 @@
+10:31:52 **** Build of configuration Debug for project pushBttonTask_FromISRflag ****
+make -j8 all 
+arm-none-eabi-size   pushBttonTask_FromISRflag.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24044	     28	  84508	 108580	  1a824	pushBttonTask_FromISRflag.elf
+Finished building: default.size.stdout
+ 
+
+10:31:53 Build Finished. 0 errors, 0 warnings. (took 1s.175ms)
+

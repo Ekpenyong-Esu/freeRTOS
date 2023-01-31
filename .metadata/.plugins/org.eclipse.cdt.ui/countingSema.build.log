@@ -1,0 +1,20 @@
+06:06:03 **** Incremental Build of configuration Debug for project countingSema ****
+make -j8 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F429ZITx -DSTM32F429I_DISC1 -DDEBUG -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER -c -I"C:/Users/mahon/Desktop/countingSema/StdPeriph_Driver/inc" -I"C:/Users/mahon/Desktop/countingSema/inc" -I"C:/Users/mahon/Desktop/countingSema/CMSIS/device" -I"C:/Users/mahon/Desktop/countingSema/CMSIS/core" -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "countingSema.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\Desktop\countingSema\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="countingSema.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: countingSema.elf
+ 
+arm-none-eabi-size   countingSema.elf 
+arm-none-eabi-objdump -h -S  countingSema.elf  > "countingSema.list"
+arm-none-eabi-objcopy  -O binary  countingSema.elf  "countingSema.bin"
+   text	   data	    bss	    dec	    hex	filename
+  26236	    152	  84328	 110716	  1b07c	countingSema.elf
+Finished building: default.size.stdout
+ 
+Finished building: countingSema.bin
+ 
+Finished building: countingSema.list
+ 
+
+06:06:06 Build Finished. 0 errors, 0 warnings. (took 2s.899ms)
+

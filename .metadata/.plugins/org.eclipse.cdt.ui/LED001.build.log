@@ -1,0 +1,17 @@
+06:26:05 **** Incremental Build of configuration Debug for project LED001 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED001.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\LED001\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED001.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED001.elf
+ 
+arm-none-eabi-size   LED001.elf 
+arm-none-eabi-objdump -h -S  LED001.elf  > "LED001.list"
+   text	   data	    bss	    dec	    hex	filename
+  29020	     28	  84620	 113668	  1bc04	LED001.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED001.list
+ 
+
+06:26:08 Build Finished. 0 errors, 0 warnings. (took 3s.80ms)
+

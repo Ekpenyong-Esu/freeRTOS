@@ -1,0 +1,20 @@
+08:03:13 **** Incremental Build of configuration Debug for project Mutex ****
+make -j8 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F429ZITx -DSTM32F429I_DISC1 -DDEBUG -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER -c -I"C:/Users/mahon/Desktop/WorkBench/Mutex/CMSIS/device" -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -I"C:/Users/mahon/stmWork/config" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/inc" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/StdPeriph_Driver/inc" -I"C:/Users/mahon/Desktop/WorkBench/Mutex/CMSIS/core" -I"C:/Users/mahon/Desktop/WorkBench/Mutex/StdPeriph_Driver/inc" -I"C:/Users/mahon/Desktop/WorkBench/Mutex/inc" -I"C:/Users/mahon/Desktop/WorkBench/Mutex/CMSIS/device" -I"C:/Users/mahon/Desktop/WorkBench/Mutex/CMSIS/core" -O0 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "Mutex.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\Desktop\WorkBench\Mutex\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="Mutex.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Mutex.elf
+ 
+arm-none-eabi-size   Mutex.elf 
+arm-none-eabi-objdump -h -S  Mutex.elf  > "Mutex.list"
+arm-none-eabi-objcopy  -O binary  Mutex.elf  "Mutex.bin"
+   text	   data	    bss	    dec	    hex	filename
+  29060	    152	  84408	 113620	  1bbd4	Mutex.elf
+Finished building: default.size.stdout
+ 
+Finished building: Mutex.bin
+ 
+Finished building: Mutex.list
+ 
+
+08:03:17 Build Finished. 0 errors, 0 warnings. (took 3s.742ms)
+

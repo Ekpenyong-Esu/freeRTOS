@@ -1,0 +1,13 @@
+../Core/Src/main.c:120:5:main	32	static
+../Core/Src/main.c:192:6:SystemClock_Config	88	static
+../Core/Src/main.c:239:13:MX_GPIO_Init	64	static
+../Core/Src/main.c:493:6:GreenTask	16	static
+../Core/Src/main.c:509:6:BlueTask	16	static
+../Core/Src/main.c:522:6:RedTask	24	static
+../Core/Src/main.c:549:6:lookBusy	16	static
+../Core/Src/main.c:560:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/main.c:581:6:vApplicationGetTimerTaskMemory	24	static
+../Core/Src/main.c:604:6:vIdleTask	16	static
+../Core/Src/main.c:614:6:vTimerCallback	16	static
+../Core/Src/main.c:631:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:648:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,20 @@
+06:26:01 **** Incremental Build of configuration Debug for project MutexUsingSemaphore ****
+make -j8 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F429ZITx -DSTM32F429I_DISC1 -DDEBUG -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER -c -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/CMSIS/core" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/CMSIS/device" -I"C:/Users/mahon/stmWork/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/common/SEGGER/config" -I"C:/Users/mahon/stmWork/common/SEGGER/os" -I"C:/Users/mahon/stmWork/common/SEGGER/SEGGER" -I"C:/Users/mahon/Desktop/Sema/inc" -I"C:/Users/mahon/Desktop/Sema/StdPeriph_Driver/inc" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/StdPeriph_Driver/inc" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/inc" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/CMSIS/device" -I"C:/Users/mahon/Desktop/WorkBench/MutexUsingSemaphore/CMSIS/core" -O0 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "MutexUsingSemaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\Desktop\WorkBench\MutexUsingSemaphore\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="MutexUsingSemaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MutexUsingSemaphore.elf
+ 
+arm-none-eabi-size   MutexUsingSemaphore.elf 
+arm-none-eabi-objdump -h -S  MutexUsingSemaphore.elf  > "MutexUsingSemaphore.list"
+arm-none-eabi-objcopy  -O binary  MutexUsingSemaphore.elf  "MutexUsingSemaphore.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25492	    152	  84328	 109972	  1ad94	MutexUsingSemaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: MutexUsingSemaphore.bin
+ 
+Finished building: MutexUsingSemaphore.list
+ 
+
+06:26:04 Build Finished. 0 errors, 0 warnings. (took 3s.261ms)
+
