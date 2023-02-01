@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;pushBttonTask_FromISR2_flag/pushBttonTask_FromISR.ioc&apos; to &apos;pushBttonTask_FromISR2_flag.ioc&apos;" description="Rename resource &apos;pushBttonTask_FromISR.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pushBttonTask_FromISR.ioc" name="pushBttonTask_FromISR2_flag.ioc" stamp="1671232978766" updateReferences="true"/>
-</session>

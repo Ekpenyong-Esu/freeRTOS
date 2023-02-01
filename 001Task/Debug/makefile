@@ -9,13 +9,13 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include Third_party/SEGGER/os/subdir.mk
--include Third_party/SEGGER/config/subdir.mk
--include Third_party/SEGGER/SEGGER/Syscalls/subdir.mk
--include Third_party/SEGGER/SEGGER/subdir.mk
--include Third_party/FreeRTOS/portable/MemMang/subdir.mk
--include Third_party/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk
--include Third_party/FreeRTOS/subdir.mk
+-include common/SEGGER/os/subdir.mk
+-include common/SEGGER/config/subdir.mk
+-include common/SEGGER/SEGGER/Syscalls/subdir.mk
+-include common/SEGGER/SEGGER/subdir.mk
+-include common/FreeRTOS/portable/MemMang/subdir.mk
+-include common/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk
+-include common/FreeRTOS/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -67,8 +67,8 @@ all: main-build
 main-build: 001Task.elf secondary-outputs
 
 # Tool invocations
-001Task.elf 001Task.map: $(OBJS) $(USER_OBJS) C:\Users\mahon\stmWork\001Task\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "001Task.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\001Task\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001Task.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+001Task.elf 001Task.map: $(OBJS) $(USER_OBJS) C:\Users\mahon\stmWork\freeRTOS\001Task\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "001Task.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\001Task\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001Task.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

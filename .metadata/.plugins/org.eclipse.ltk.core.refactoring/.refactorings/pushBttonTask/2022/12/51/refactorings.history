@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;pushBttonTask/ledVtaskDelayUntill.ioc&apos; to &apos;pushBttonTask.ioc&apos;" description="Rename resource &apos;ledVtaskDelayUntill.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ledVtaskDelayUntill.ioc" name="pushBttonTask.ioc" stamp="1670978313282" updateReferences="true"/>
-</session>
