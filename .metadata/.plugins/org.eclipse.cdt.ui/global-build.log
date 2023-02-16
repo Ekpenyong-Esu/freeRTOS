@@ -1,21 +1,28 @@
-18:14:15 **** Incremental Build of configuration Debug for project BinarySemaphore ****
+06:08:23 **** Incremental Build of configuration Debug for project TaskNotificationUnderstanding ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/mahon/stmWork/freeRTOS/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/freeRTOS/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/config" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/os" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/SEGGER" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "BinarySemaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\BinarySemaphore\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BinarySemaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: BinarySemaphore.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/mahon/stmWork/New folder/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/New folder/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/New folder/common/SEGGER/config" -I"C:/Users/mahon/stmWork/New folder/common/SEGGER/os" -I"C:/Users/mahon/stmWork/New folder/common/SEGGER/SEGGER" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TaskNotificationUnderstanding.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\TaskNotificationUnderstanding\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TaskNotificationUnderstanding.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TaskNotificationUnderstanding.elf
  
-arm-none-eabi-size   BinarySemaphore.elf 
-arm-none-eabi-objdump -h -S  BinarySemaphore.elf  > "BinarySemaphore.list"
+arm-none-eabi-size   TaskNotificationUnderstanding.elf 
+arm-none-eabi-objdump -h -S  TaskNotificationUnderstanding.elf  > "TaskNotificationUnderstanding.list"
    text	   data	    bss	    dec	    hex	filename
-  28816	     44	  84620	 113480	  1bb48	BinarySemaphore.elf
+  27820	     52	  84620	 112492	  1b76c	TaskNotificationUnderstanding.elf
 Finished building: default.size.stdout
  
-Finished building: BinarySemaphore.list
+Finished building: TaskNotificationUnderstanding.list
  
-18:14:34 **** Incremental Build of configuration Debug for project BinarySemaphore ****
+06:08:41 **** Incremental Build of configuration Debug for project TaskNotificationUnderstanding ****
 make -j8 all 
-arm-none-eabi-size   BinarySemaphore.elf 
+arm-none-eabi-size   TaskNotificationUnderstanding.elf 
    text	   data	    bss	    dec	    hex	filename
-  28816	     44	  84620	 113480	  1bb48	BinarySemaphore.elf
+  27820	     52	  84620	 112492	  1b76c	TaskNotificationUnderstanding.elf
+Finished building: default.size.stdout
+ 
+06:08:45 **** Incremental Build of configuration Debug for project TaskNotificationUnderstanding ****
+make -j8 all 
+arm-none-eabi-size   TaskNotificationUnderstanding.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27820	     52	  84620	 112492	  1b76c	TaskNotificationUnderstanding.elf
 Finished building: default.size.stdout
  

@@ -1,3 +1,7 @@
 1675262100846	Delete resource 'STM32_FreeRTOS_Bin_Sema_Tasks/Third-Party'
 1675263890691	Delete resource 'BinarySemaphore/common/FreeRTOS/include/FreeRTOSConfig.h'
 1675264042515	Delete resource 'BinarySemaphore'
+1675495630413	Delete resource 'BinarySemPoll/Core/Src/main.c'
+1675495849642	Delete resource 'BinarySemPoll/Core/Inc/main.h'
+1675496052173	Delete resource 'BinarySemaphorePool'
+1675497108760	Rename resource 'BinarySemaphoreTime Bound'

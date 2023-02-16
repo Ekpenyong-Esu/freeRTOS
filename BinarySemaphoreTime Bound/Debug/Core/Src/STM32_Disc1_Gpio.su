@@ -1,0 +1,8 @@
+../Core/Src/STM32_Disc1_Gpio.c:13:6:GreenOn	8	static
+../Core/Src/STM32_Disc1_Gpio.c:14:6:GreenOff	8	static
+../Core/Src/STM32_Disc1_Gpio.c:20:6:BlueOn	8	static
+../Core/Src/STM32_Disc1_Gpio.c:21:6:BlueOff	8	static
+../Core/Src/STM32_Disc1_Gpio.c:27:6:RedOn	8	static
+../Core/Src/STM32_Disc1_Gpio.c:28:6:RedOff	8	static
+../Core/Src/STM32_Disc1_Gpio.c:31:9:ReadPushButton	8	static
+../Core/Src/STM32_Disc1_Gpio.c:35:10:StmRand	16	static

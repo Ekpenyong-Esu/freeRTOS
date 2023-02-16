@@ -1,0 +1,16 @@
+05:06:42 **** Incremental Build of configuration Debug for project QueuePassByReference ****
+make -j8 all 
+arm-none-eabi-gcc -o "QueuePassByReference.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\QueuePassByReference\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="QueuePassByReference.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: QueuePassByReference.elf
+ 
+arm-none-eabi-size   QueuePassByReference.elf 
+arm-none-eabi-objdump -h -S  QueuePassByReference.elf  > "QueuePassByReference.list"
+   text	   data	    bss	    dec	    hex	filename
+  27100	    580	  84620	 112300	  1b6ac	QueuePassByReference.elf
+Finished building: default.size.stdout
+ 
+Finished building: QueuePassByReference.list
+ 
+
+05:06:44 Build Finished. 0 errors, 0 warnings. (took 1s.922ms)
+

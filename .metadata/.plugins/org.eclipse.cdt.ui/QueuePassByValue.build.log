@@ -1,0 +1,10 @@
+05:11:50 **** Incremental Build of configuration Debug for project QueuePassByValue ****
+make -j8 all 
+arm-none-eabi-size   QueuePassByValue.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27164	     52	  84620	 111836	  1b4dc	QueuePassByValue.elf
+Finished building: default.size.stdout
+ 
+
+05:11:52 Build Finished. 0 errors, 0 warnings. (took 1s.309ms)
+

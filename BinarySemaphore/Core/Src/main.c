@@ -49,6 +49,8 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
+volatile uint32_t flag = 0;
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -452,9 +454,10 @@ void GreenTaskA( void* argument )
 		if(++count >= 5)
 		{
 			count = 0;
-			SEGGER_SYSVIEW_PrintfHost("Task A (green LED) gives semPtr");
-			xSemaphoreGive(semPtr);
-		}
+			SEGGER_SYSVIEW_PrintfHost("Task A (green LED) sets flag");
+			flag = 1;	//set 'flag' to 1 to "signal" BlueTaskB to run
+	    }
+
 		GreenLed.On();
 		vTaskDelay(pdMS_TO_TICKS(100));
 		GreenLed.Off();
@@ -470,19 +473,25 @@ void BlueTaskB( void* argument )
 	while(1)
 	{
 		//'take' the semaphore with a really long timeout
-		SEGGER_SYSVIEW_PrintfHost("Task B (Blue LED) attempts to take semPtr");
-		if(xSemaphoreTake(semPtr, portMAX_DELAY) == pdPASS)
+		SEGGER_SYSVIEW_PrintfHost("Task B (Blue LED) starts polling on flag");
+
+		//Repeatedly poll on flag.  As soon as it is non-zero,
+		//blink the blue LED 3 time
+		while(!flag);       // Immediately flag == 1 the not ! will turn it to zero and it will break out of the loop
+
+		SEGGER_SYSVIEW_PrintfHost("Task B (Blue LED) received flag");
+
+		flag = 0;                          // reset the flag
+
+		//triple blink the Blue LED
+		for(uint_fast8_t i = 0; i < 3; i++)
 		{
-			SEGGER_SYSVIEW_PrintfHost("Task B (Blue LED) received semPtr");
-			//triple blink the Blue LED
-			for(uint_fast8_t i = 0; i < 3; i++)
-			{
-				BlueLed.On();
-				vTaskDelay(50/portTICK_PERIOD_MS);
-				BlueLed.Off();
-				vTaskDelay(50/portTICK_PERIOD_MS);
-			}
+			BlueLed.On();
+			vTaskDelay(50/portTICK_PERIOD_MS);
+			BlueLed.Off();
+			vTaskDelay(50/portTICK_PERIOD_MS);
 		}
+
 		//		else
 		//		{
 		//			This is the code that will be executed if we time out waiting for

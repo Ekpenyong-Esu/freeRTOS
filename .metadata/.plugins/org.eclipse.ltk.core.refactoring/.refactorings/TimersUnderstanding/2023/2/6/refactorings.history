@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;common&apos; to &apos;TimersUnderstanding&apos;" description="Move &apos;common&apos; to &apos;TimersUnderstanding&apos;" destination="/TimersUnderstanding" element1="/QueueSimplePassByValue/common" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1676098942999" updateReferences="true"/>
+</session>

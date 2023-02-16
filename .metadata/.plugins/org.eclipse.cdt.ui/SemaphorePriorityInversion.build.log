@@ -1,0 +1,10 @@
+05:28:18 **** Incremental Build of configuration Debug for project SemaphorePriorityInversion ****
+make -j8 all 
+arm-none-eabi-size   SemaphorePriorityInversion.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29204	     52	  84620	 113876	  1bcd4	SemaphorePriorityInversion.elf
+Finished building: default.size.stdout
+ 
+
+05:28:20 Build Finished. 0 errors, 0 warnings. (took 1s.277ms)
+

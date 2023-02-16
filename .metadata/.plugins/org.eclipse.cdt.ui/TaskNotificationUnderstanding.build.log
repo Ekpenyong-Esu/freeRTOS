@@ -1,0 +1,10 @@
+06:08:45 **** Incremental Build of configuration Debug for project TaskNotificationUnderstanding ****
+make -j8 all 
+arm-none-eabi-size   TaskNotificationUnderstanding.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27820	     52	  84620	 112492	  1b76c	TaskNotificationUnderstanding.elf
+Finished building: default.size.stdout
+ 
+
+06:08:46 Build Finished. 0 errors, 0 warnings. (took 1s.146ms)
+
