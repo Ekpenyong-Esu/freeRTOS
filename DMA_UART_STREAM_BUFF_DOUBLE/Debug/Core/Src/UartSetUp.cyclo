@@ -1,0 +1,4 @@
+UartSetUp.c:53:6:SetupUart5ExternalSim	1
+UartSetUp.c:74:13:uart5TxDmaSetup	2
+UartSetUp.c:114:13:uart5TxDmaStartRepeat	2
+UartSetUp.c:123:6:DMA1_Stream7_IRQHandler	1

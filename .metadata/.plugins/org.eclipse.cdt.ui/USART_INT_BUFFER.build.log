@@ -1,0 +1,10 @@
+11:57:09 **** Incremental Build of configuration Debug for project USART_INT_BUFFER ****
+make -j8 all 
+arm-none-eabi-size   USART_INT_BUFFER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39828	     24	  84896	 124748	  1e74c	USART_INT_BUFFER.elf
+Finished building: default.size.stdout
+ 
+
+11:57:11 Build Finished. 0 errors, 0 warnings. (took 2s.56ms)
+

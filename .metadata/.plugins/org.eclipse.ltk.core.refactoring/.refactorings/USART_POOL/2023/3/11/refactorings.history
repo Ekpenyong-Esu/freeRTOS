@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;USART_POOL/DMA_UART.ioc&apos; to &apos;USART_POOL.ioc&apos;" description="Rename resource &apos;DMA_UART.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DMA_UART.ioc" name="USART_POOL.ioc" stamp="1678981017859" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;USART_POOL/Core/Src/UARTPOOL.c&apos; to &apos;mainUSARTPool.c&apos;" description="Rename resource &apos;UARTPOOL.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/UARTPOOL.c" name="mainUSARTPool.c" stamp="1678981915872" updateReferences="true"/>
+</session>

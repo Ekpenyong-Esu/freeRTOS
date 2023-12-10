@@ -1,0 +1,6 @@
+core_cm4.h:1816:22:__NVIC_SetPriority	2
+VirtualCommDriverMultiTask.c:75:6:VirtualCommInit	5
+VirtualCommDriverMultiTask.c:97:29:GetUsbRxStreamBuff	1
+VirtualCommDriverMultiTask.c:111:9:TransmitUsbData	3
+VirtualCommDriverMultiTask.c:150:6:usbTxTask	4
+VirtualCommDriverMultiTask.c:196:6:usbTxComplete	2

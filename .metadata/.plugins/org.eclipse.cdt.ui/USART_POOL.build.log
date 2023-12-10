@@ -1,0 +1,10 @@
+05:49:27 **** Incremental Build of configuration Debug for project USART_POOL ****
+make -j8 all 
+arm-none-eabi-size   USART_POOL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37140	     32	  84880	 122052	  1dcc4	USART_POOL.elf
+Finished building: default.size.stdout
+ 
+
+05:49:30 Build Finished. 0 errors, 0 warnings. (took 2s.718ms)
+

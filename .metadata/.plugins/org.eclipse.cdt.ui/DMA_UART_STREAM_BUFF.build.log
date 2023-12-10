@@ -1,0 +1,10 @@
+10:18:22 **** Incremental Build of configuration Debug for project DMA_UART_STREAM_BUFF ****
+make -j8 all 
+arm-none-eabi-size   DMA_UART_STREAM_BUFF.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39324	     28	  84844	 124196	  1e524	DMA_UART_STREAM_BUFF.elf
+Finished building: default.size.stdout
+ 
+
+10:18:23 Build Finished. 0 errors, 0 warnings. (took 1s.319ms)
+

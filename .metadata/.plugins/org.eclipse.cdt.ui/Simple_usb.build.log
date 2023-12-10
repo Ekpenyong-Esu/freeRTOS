@@ -1,0 +1,17 @@
+10:29:04 **** Incremental Build of configuration Debug for project Simple_usb ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_FULL_ASSERT=1 -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/mahon/stmWork/freeRTOS/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/freeRTOS/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/config" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/os" -I"C:/Users/mahon/stmWork/freeRTOS/common/SEGGER/SEGGER" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_cdc_if.d" -MT"USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc -o "Simple_usb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\Simple_usb\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Simple_usb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Simple_usb.elf
+ 
+arm-none-eabi-size   Simple_usb.elf 
+arm-none-eabi-objdump -h -S  Simple_usb.elf  > "Simple_usb.list"
+   text	   data	    bss	    dec	    hex	filename
+  52876	    268	  91868	 145012	  23674	Simple_usb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Simple_usb.list
+ 
+
+10:29:09 Build Finished. 0 errors, 0 warnings. (took 5s.606ms)
+

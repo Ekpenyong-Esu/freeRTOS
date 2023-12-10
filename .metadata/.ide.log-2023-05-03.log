@@ -1,0 +1,13 @@
+2023-05-03 06:36:28,078 [INFO] Activator:176 - 
+
+
+2023-05-03 06:36:28,093 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-03 06:36:36,740 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1947419152 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,752 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.1165881043 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,766 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.29117250 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,777 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.469058725 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,842 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.2020399737 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,851 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.906366420 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,860 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.779923141 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:36,870 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.1878935188 uses a null category that is invalid in its context. The option was ignored.
+2023-05-03 06:36:43,323 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 

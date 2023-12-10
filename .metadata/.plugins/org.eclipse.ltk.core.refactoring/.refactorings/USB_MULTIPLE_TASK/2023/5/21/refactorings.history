@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USB_MULTIPLE_TASK/USB.ioc&apos; to &apos;USB_MULTIPLE_TASK.ioc&apos;" description="Rename resource &apos;USB.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="USB.ioc" name="USB_MULTIPLE_TASK.ioc" stamp="1685093061434" updateReferences="true"/>
+</session>

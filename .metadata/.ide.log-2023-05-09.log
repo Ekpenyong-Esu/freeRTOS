@@ -1,0 +1,25 @@
+2023-05-09 15:40:12,948 [INFO] Activator:176 - 
+
+
+2023-05-09 15:40:12,990 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-09 15:40:31,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1947419152 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,719 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.1165881043 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.29117250 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,776 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.469058725 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,873 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.2020399737 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,900 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.906366420 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,922 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.779923141 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:31,943 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.1878935188 uses a null category that is invalid in its context. The option was ignored.
+2023-05-09 15:40:40,197 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-09 15:40:41,945 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:40:41,945 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:40:41,945 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:41:17,010 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-09 15:41:17,014 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-09 15:41:17,019 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-09 15:42:29,585 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:42:29,587 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:42:29,588 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:42:45,470 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:42:45,471 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-05-09 15:42:45,473 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com

@@ -1,0 +1,6 @@
+common/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o: \
+ ../common/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.S \
+ ../common/SEGGER/SEGGER/SEGGER_RTT.h \
+ ../common/SEGGER/SEGGER/../Config/SEGGER_RTT_Conf.h
+../common/SEGGER/SEGGER/SEGGER_RTT.h:
+../common/SEGGER/SEGGER/../Config/SEGGER_RTT_Conf.h:

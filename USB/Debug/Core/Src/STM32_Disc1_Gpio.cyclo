@@ -1,0 +1,7 @@
+STM32_Disc1_Gpio.c:13:6:GreenOn	1
+STM32_Disc1_Gpio.c:14:6:GreenOff	1
+STM32_Disc1_Gpio.c:20:6:BlueOn	1
+STM32_Disc1_Gpio.c:21:6:BlueOff	1
+STM32_Disc1_Gpio.c:27:6:RedOn	1
+STM32_Disc1_Gpio.c:28:6:RedOff	1
+STM32_Disc1_Gpio.c:31:9:ReadPushButton	1

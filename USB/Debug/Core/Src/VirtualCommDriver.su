@@ -1,0 +1,7 @@
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Core/Src/VirtualCommDriver.c:73:6:VirtualCommInit	16	static
+../Core/Src/VirtualCommDriver.c:91:29:GetUsbRxStreamBuff	4	static
+../Core/Src/VirtualCommDriver.c:104:9:TransmitUsbDataLossy	24	static
+../Core/Src/VirtualCommDriver.c:119:9:TransmitUsbData	24	static
+../Core/Src/VirtualCommDriver.c:144:6:usbTask	32	static
+../Core/Src/VirtualCommDriver.c:190:6:usbTxComplete	24	static,ignoring_inline_asm

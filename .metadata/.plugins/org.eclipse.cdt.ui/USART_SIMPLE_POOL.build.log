@@ -1,0 +1,26 @@
+16:08:31 **** Incremental Build of configuration Debug for project USART_SIMPLE_POOL ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/mahon/stmWork/freeRTOS/USART_SIMPLE_POOL/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/freeRTOS/BSP" -I"C:/Users/mahon/stmWork/freeRTOS/USART_SIMPLE_POOL/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/freeRTOS/USART_SIMPLE_POOL/common/SEGGER/config" -I"C:/Users/mahon/stmWork/freeRTOS/USART_SIMPLE_POOL/common/SEGGER/os" -I"C:/Users/mahon/stmWork/freeRTOS/USART_SIMPLE_POOL/common/SEGGER/SEGGER" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:32:2: warning: implicit declaration of function 'SetupUart4ExternalSim' [-Wimplicit-function-declaration]
+   32 |  SetupUart4ExternalSim(9600);
+      |  ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'polledUartReceive':
+../Core/Src/main.c:78:19: error: 'USART_TypeDef' has no member named 'ISR'; did you mean 'SR'?
+   78 |   while(!(USART2->ISR & USART_ISR_RXNE_Msk));
+      |                   ^~~
+      |                   SR
+../Core/Src/main.c:78:25: error: 'USART_ISR_RXNE_Msk' undeclared (first use in this function); did you mean 'USART_SR_RXNE_Msk'?
+   78 |   while(!(USART2->ISR & USART_ISR_RXNE_Msk));
+      |                         ^~~~~~~~~~~~~~~~~~
+      |                         USART_SR_RXNE_Msk
+../Core/Src/main.c:78:25: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:79:22: error: 'USART_TypeDef' has no member named 'RDR'; did you mean 'DR'?
+   79 |   nextByte = USART2->RDR;
+      |                      ^~~
+      |                      DR
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:08:33 Build Failed. 4 errors, 1 warnings. (took 1s.467ms)
+

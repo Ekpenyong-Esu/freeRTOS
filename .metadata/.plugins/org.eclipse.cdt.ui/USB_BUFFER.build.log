@@ -1,0 +1,10 @@
+10:47:13 **** Incremental Build of configuration Debug for project USB_BUFFER ****
+make -j8 all 
+arm-none-eabi-size   USB_BUFFER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  54496	    268	  92636	 147400	  23fc8	USB_BUFFER.elf
+Finished building: default.size.stdout
+ 
+
+10:47:14 Build Finished. 0 errors, 0 warnings. (took 1s.622ms)
+

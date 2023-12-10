@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm4.h:1657:22:__NVIC_SetPriorityGrouping	24	static
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Core/Src/mainUsart_int.c:34:5:main	24	static
+../Core/Src/mainUsart_int.c:82:9:startReceiveInt	16	static
+../Core/Src/mainUsart_int.c:103:6:startUart5Traffic	16	static
+../Core/Src/mainUsart_int.c:110:6:wastefulTask	24	static
+../Core/Src/mainUsart_int.c:122:6:uartPrintOutTask	40	static
+../Core/Src/mainUsart_int.c:151:6:USART1_IRQHandler	16	static,ignoring_inline_asm

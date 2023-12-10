@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USART_INT_BUFFER/USART_INT_QUE.ioc&apos; to &apos;USART_INT_BUFFER.ioc&apos;" description="Rename resource &apos;USART_INT_QUE.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="USART_INT_QUE.ioc" name="USART_INT_BUFFER.ioc" stamp="1680942001609" updateReferences="true"/>
+</session>

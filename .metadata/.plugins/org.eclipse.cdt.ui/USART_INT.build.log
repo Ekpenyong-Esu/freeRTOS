@@ -1,0 +1,17 @@
+14:21:05 **** Incremental Build of configuration Debug for project USART_INT ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -DUSE_FULL_ASSERT=1 -c -I"C:/Users/mahon/stmWork/freeRTOS/USART_INT/common/FreeRTOS/include" -I"C:/Users/mahon/stmWork/freeRTOS/USART_INT/common/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/mahon/stmWork/freeRTOS/USART_INT/common/SEGGER/config" -I"C:/Users/mahon/stmWork/freeRTOS/USART_INT/common/SEGGER/os" -I"C:/Users/mahon/stmWork/freeRTOS/USART_INT/common/SEGGER/SEGGER" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc -o "USART_INT.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mahon\stmWork\freeRTOS\USART_INT\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USART_INT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USART_INT.elf
+ 
+arm-none-eabi-size   USART_INT.elf 
+arm-none-eabi-objdump -h -S  USART_INT.elf  > "USART_INT.list"
+   text	   data	    bss	    dec	    hex	filename
+  37676	     24	  84888	 122588	  1dedc	USART_INT.elf
+Finished building: default.size.stdout
+ 
+Finished building: USART_INT.list
+ 
+
+14:21:08 Build Finished. 0 errors, 0 warnings. (took 2s.490ms)
+

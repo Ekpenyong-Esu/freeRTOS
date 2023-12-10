@@ -1,0 +1,4 @@
+../Core/Src/UartSetUp.c:53:6:SetupUart5ExternalSim	16	static
+../Core/Src/UartSetUp.c:74:13:uart5TxDmaSetup	16	static
+../Core/Src/UartSetUp.c:114:13:uart5TxDmaStartRepeat	16	static
+../Core/Src/UartSetUp.c:123:6:DMA1_Stream7_IRQHandler	4	static

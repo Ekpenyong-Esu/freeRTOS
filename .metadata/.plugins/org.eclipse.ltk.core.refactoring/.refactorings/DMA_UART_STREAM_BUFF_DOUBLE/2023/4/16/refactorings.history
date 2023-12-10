@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DMA_UART_STREAM_BUFF_DOUBLE/DMA_UART_STREAM_BUFF.ioc&apos; to &apos;DMA_UART_STREAM_BUFF_DOUBLE.ioc&apos;" description="Rename resource &apos;DMA_UART_STREAM_BUFF.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DMA_UART_STREAM_BUFF.ioc" name="DMA_UART_STREAM_BUFF_DOUBLE.ioc" stamp="1681889680365" updateReferences="true"/>
+</session>

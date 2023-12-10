@@ -1,0 +1,7 @@
+stm32f429_init.c:20:6:HWInit	1
+stm32f429_init.c:34:10:StmRand	1
+stm32f429_init.c:40:6:SystemClock_Config	3
+stm32f429_init.c:90:13:gpioPinsInit	1
+stm32f429_init.c:337:13:rngInit	1
+stm32f429_init.c:350:6:Error_Handler	1
+stm32f429_init.c:366:6:assert_failed	1

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USART_INT_DMA&apos; to &apos;USART_INT_QUE&apos;" description="Rename resource &apos;USART_INT_DMA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/USART_INT_DMA" name="USART_INT_QUE" stamp="1680941858600" updateReferences="true"/>
+</session>

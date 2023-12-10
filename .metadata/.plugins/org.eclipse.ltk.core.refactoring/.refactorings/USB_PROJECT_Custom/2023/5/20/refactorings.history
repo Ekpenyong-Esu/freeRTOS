@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USB_PROJECT_Custom/USB_PROJECT.ioc&apos; to &apos;USB_PROJECT_Custom.ioc&apos;" description="Rename resource &apos;USB_PROJECT.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="USB_PROJECT.ioc" name="USB_PROJECT_Custom.ioc" stamp="1684567274709" updateReferences="true"/>
+</session>

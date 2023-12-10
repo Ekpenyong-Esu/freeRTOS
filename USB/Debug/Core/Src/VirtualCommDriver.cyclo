@@ -1,0 +1,7 @@
+core_cm4.h:1816:22:__NVIC_SetPriority	2
+VirtualCommDriver.c:73:6:VirtualCommInit	4
+VirtualCommDriver.c:91:29:GetUsbRxStreamBuff	1
+VirtualCommDriver.c:104:9:TransmitUsbDataLossy	1
+VirtualCommDriver.c:119:9:TransmitUsbData	2
+VirtualCommDriver.c:144:6:usbTask	4
+VirtualCommDriver.c:190:6:usbTxComplete	2

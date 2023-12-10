@@ -1,0 +1,3 @@
+../Core/Src/UartQuickDirtyInit.c:30:6:initUart1Pins	32	static
+../Core/Src/UartQuickDirtyInit.c:44:6:initUart5Pins	40	static
+../Core/Src/UartQuickDirtyInit.c:80:6:STM_UartInit	104	static

@@ -1,0 +1,3 @@
+UartQuickDirtyInit.c:30:6:initUart1Pins	1
+UartQuickDirtyInit.c:44:6:initUart5Pins	1
+UartQuickDirtyInit.c:80:6:STM_UartInit	6

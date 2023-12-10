@@ -1,0 +1,10 @@
+11:59:43 **** Incremental Build of configuration Debug for project USART_INT_QUE ****
+make -j8 all 
+arm-none-eabi-size   USART_INT_QUE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37340	     24	  84792	 122156	  1dd2c	USART_INT_QUE.elf
+Finished building: default.size.stdout
+ 
+
+11:59:44 Build Finished. 0 errors, 0 warnings. (took 1s.383ms)
+
